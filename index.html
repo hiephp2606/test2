@@ -4,8 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        th {
+           height: 5px;
+}
+        td {
+            padding: 5px;
+}       
+        
+    </style>
 </head>
 <body>
-    
+    <table border="1px" align="center">
+        <thead>
+            <tr> 
+                <th colspan="2">            
+                   Đăng ký
+                </th>
+            </tr>
+        </thead>
+        <tbody>           
+            <form>
+                <tr>
+                    <td> 
+                        Full name
+                    </td>                    
+                    <td align="left">
+                    
+                        <input type="text" placeholder="Nhập full name" value="">
+                        
+                    </td>                   
+                </tr>
+                <tr>
+                    <td>
+                       Username
+                    </td>
+                    <td align="left">
+                        
+                        <input type="text" placeholder="Nhập tên" value="">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       Password
+                    </td>
+                    <td align="left">
+                        
+                        <input type="password" placeholder="Nhập mật khẩu">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Nhập lại Password
+                    </td>
+                    <td align="left">
+                        
+                        <input type="password" placeholder="Nhập lại mật khẩu" value="">
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Giới tính
+                    </td>
+                    <td>
+                        <form>
+                        <input type="radio" name="fav_language" value="">
+                        <label>Nam</label>
+                        <input type="radio" name="fav_language" value="">
+                        <label for="css">Nữ</label>
+                        
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                       Ngày Sinh
+                    </td>
+                    <td>
+                        
+                        <select>
+                            <option value="">Ngày 1</option>
+                            <option value="">Ngày 2</option>
+                            <option value="">Ngày 3</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Tháng 1</option>
+                            <option value="">Tháng 2</option>
+                            <option value="">Tháng 3</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Năm 2015</option>
+                            <option value="">Năm 2016</option>
+                            <option value="">Năm 2017</option>
+                        </select>
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       Địa chỉ
+                    </td>
+                    <td align="left">
+                        
+                        <textarea name="" id=""></textarea>
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Avatar
+                    </td>
+                    <td>
+                        
+                        <input type="file">
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Sở thích
+                    </td>
+                    <td>
+                        
+                        <input type="checkbox">
+                        <label>Xem phim</label>
+                        <input type="checkbox">
+                        <label for="">Thể thao</label>
+                        <input type="checkbox">
+                        <label for="">Web</label>
+                    
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="reset">
+                        <input type="submit">
+                    </td>
+                </tr>
+            </form>  
+        </tbody>
+    </table>
 </body>
 </html>
